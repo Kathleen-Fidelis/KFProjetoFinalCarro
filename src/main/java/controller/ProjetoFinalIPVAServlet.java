@@ -55,13 +55,13 @@ public class ProjetoFinalIPVAServlet extends HttpServlet {
 		case ("updateIPVA"):
 			IPVAAtualizados(request, response);
 		break;
-		case ("ipvaUpdate"):
+		case ("atualizarIPVA"):
 			atualizarIPVA(request, response);
 		break;
-		case ("ipvaDelete"):
+		case ("deletarIPVA"):
 			deletarIPVA(request, response);
 		break;
-		case ("ipvaInsert"):
+		case ("inserirIPVA"):
 			inserirIPVA(request, response);
 		break;
 		default:

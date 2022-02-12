@@ -57,13 +57,4 @@ public class Carro {
 	}
 	
 	
-	
-//	public String pagaIPVA() {
-//		if (this.id <= ipva.getId()) {
-//			return "Não paga";
-//		}else {
-//			return "Paga";
-//		}
-//	}
-	
 }

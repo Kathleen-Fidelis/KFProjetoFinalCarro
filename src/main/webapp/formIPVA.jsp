@@ -34,7 +34,7 @@
 					<label style="margin-right: 17px;">Ano:</label>
 					<input type="text" class="form-control" name="ano"/>
 				
-					<button type="submit" name="optionIPVA" value="ipvaInsert" class="btn btn-primary col-2 mb-3 mt-3">Salvar</button>
+					<button type="submit" name="optionIPVA" value="inserirIPVA" class="btn btn-primary col-2 mb-3 mt-3">Salvar</button>
 				</div>
 			</c:when>
 			<c:otherwise>
@@ -44,7 +44,7 @@
 					<label style="margin-right: 17px;">Ano:</label>
 					<input type="text" name="ano" class="form-control" value="${ipva.ano}"/>
 					
-					<button type="submit" name="optionIPVA" value="updateIPVA" class="btn btn-primary col-2 mb-3 mt-3">Atualizar</button>
+					<button type="submit" name="optionIPVA" value="atualizarIPVA" class="btn btn-primary col-2 mb-3 mt-3">Atualizar</button>
 				</div>
 			</c:otherwise>
 		</c:choose>

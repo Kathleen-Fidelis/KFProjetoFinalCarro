@@ -156,8 +156,10 @@ public class CarroDAO {
 			con.close();
 		} catch (SQLException e) {
 			e.printStackTrace();
+			System.out.println(listaIpva);
 		}
 		return listaIpva;
+		
 	}
 	
 	public void deletarIPVA(int id) {

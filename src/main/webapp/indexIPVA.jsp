@@ -54,7 +54,7 @@
 								<input type="hidden" name="id" value="${ipva.id}"/>
 							</td>
 							<td><c:out value="${ipva.ano}"/></td>
-							<td><button type="submit" name="optionIPVA" value="ipvaDelete">Deletar</button>
+							<td><button type="submit" name="optionIPVA" value="deletarIPVA">Deletar</button>
 							<button type="submit" name="optionIPVA" value="updateIPVA">Atualizar</button></td>
 						</form>
 					</tr>
